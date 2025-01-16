@@ -22,6 +22,7 @@ hasNaN = df["Price"].isna()
 print(hasNaN)
 
 
+
 # Hur många null värden finns det i tabellen
 print("isNull")
 isNull = df["Price"].isnull().sum()
