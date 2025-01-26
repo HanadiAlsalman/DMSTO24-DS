@@ -1,0 +1,15 @@
+
+
+/opt/homebrew/Cellar/postgresql@14/14.15/lib/postgresql@14/
+
+
+Reason: tried:
+'/Library/PostgreSQL/16/lib/libpq.5.dylib' (no such file),
+'/System/Volumes/Preboot/Cryptexes/OS/Library/PostgreSQL/16/lib/libpq.5.dylib' (no such file),
+'/Library/PostgreSQL/16/lib/libpq.5.dylib' (no such file)
+
+
+sudo ln -s /opt/homebrew/Cellar/postgresql@14/14.15/lib/postgresql@14/ /Library/PostgreSQL/16/lib
+ls -lah /Library/PostgreSQL/16/lib
+
+

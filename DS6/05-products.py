@@ -7,11 +7,11 @@ Samma data, men med en extra kolumn för "Category".
 """
 
 
-# with open("products.csv", "r") as file:
-#     reader = csv.reader(file)
-#     for row in reader:
-#         row.append("Category")
-#         print(row)
+with open("products.csv", "r") as file:
+     reader = csv.reader(file)
+     for row in reader:
+        row.append("Category")
+        print(row)
 
 with open("products.csv", "r") as file:
     reader = csv.reader(file)

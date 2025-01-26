@@ -23,7 +23,7 @@ def combine_files(filenames: list[str]):
 
 combine_files(filenames)
 
-# print(index)
+print(index)
 
 # import os
 # os.remove("example.txt")
